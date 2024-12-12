@@ -1,0 +1,8 @@
+# Puntaje de un equipo de fútbol
+partidos_ganados = int(input("Cantidad de partidos ganados: "))
+partidos_empatados = int(input("Cantidad de partidos empatados: "))
+partidos_perdidos = int(input("Cantidad de partidos perdidos: "))
+
+puntaje_total = (partidos_ganados * 3) + (partidos_empatados * 1)
+
+print(f"Puntaje total del equipo: {puntaje_total}")
