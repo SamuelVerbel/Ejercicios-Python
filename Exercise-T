@@ -1,0 +1,10 @@
+nota1 = float(input("Ingresa la primera calificación parcial: "))
+nota2 = float(input("Ingresa la segunda calificación parcial: "))
+nota3 = float(input("Ingresa la tercera calificación parcial: "))
+examen_final = float(input("Ingresa la calificación del examen final: "))
+trabajo_final = float(input("Ingresa la calificación del trabajo final: "))
+
+promedio_parciales = (nota1 + nota2 + nota3) / 3
+calificacion_final = (promedio_parciales * 0.55) + (examen_final * 0.30) + (trabajo_final * 0.15)
+
+print(f"La calificación final es: {calificacion_final:.2f}")
