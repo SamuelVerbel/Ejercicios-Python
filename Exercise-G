@@ -1,0 +1,10 @@
+# Naranjas para generar energía
+energia_requerida_kv = float(input("Ingresa la cantidad de kilovoltios necesarios: "))
+energia_por_naranja = 0.05  # Voltios por naranja
+peso_por_naranja = 6  # Gramos por naranja
+
+naranjas_necesarias = (energia_requerida_kv * 1000) / energia_por_naranja
+peso_total_toneladas = (naranjas_necesarias * peso_por_naranja) / 1_000_000
+
+print(f"Se necesitan aproximadamente {int(naranjas_necesarias)} naranjas.")
+print(f"Esto equivale a {peso_total_toneladas:.2f} toneladas.")
