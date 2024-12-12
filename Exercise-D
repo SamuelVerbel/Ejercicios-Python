@@ -1,0 +1,9 @@
+# Días dormidos
+nombre = input("Ingresa tu nombre: ")
+anio_nacimiento = int(input("Ingresa tu año de nacimiento: "))
+anio_actual = int(input("Ingresa el año actual: "))
+
+edad = anio_actual - anio_nacimiento
+dias_dormidos = int((edad * 365) * 0.34)
+
+print(f"{nombre}, has dormido aproximadamente {dias_dormidos} días en tu vida.")
