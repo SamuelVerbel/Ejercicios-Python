@@ -1,0 +1,9 @@
+# Cantidad de CD necesarios
+tamano_disco_gb = float(input("Ingresa el tamaño del disco duro en GB: "))
+
+capacidad_cd_mb = 700
+tamano_disco_mb = tamano_disco_gb * 1024
+
+cd_necesarios = -(-tamano_disco_mb // capacidad_cd_mb)  # Redondeo hacia arriba
+
+print(f"Se necesitan {int(cd_necesarios)} CD para realizar la copia.")
