@@ -1,0 +1,17 @@
+# Volumen de una piscina
+largo_mm = float(input("Ingresa el largo de la piscina en milímetros: "))
+ancho_cm = float(input("Ingresa el ancho de la piscina en centímetros: "))
+alto_m = float(input("Ingresa el alto de la piscina en metros: "))
+costo_por_m3 = float(input("Ingresa el costo por metro cúbico de agua en pesos: "))
+lluvia_m3 = float(input("Ingresa la cantidad de metros cúbicos de agua lluvia mensual: "))
+
+largo_m = largo_mm / 1000
+ancho_m = ancho_cm / 100
+
+volumen_m3 = largo_m * ancho_m * alto_m
+costo_llenado = volumen_m3 * costo_por_m3
+meses_lluvia = volumen_m3 / lluvia_m3
+
+print(f"Volumen de la piscina: {volumen_m3:.2f} m³")
+print(f"Costo para llenarla: ${costo_llenado:.2f}")
+print(f"Meses necesarios con agua lluvia: {meses_lluvia:.2f}")
