@@ -1,0 +1,9 @@
+# Consumo de fruta por edad
+edad = int(input("Ingresa la edad de la persona en años: "))
+
+consumo_total_kg = edad * 8
+consumo_total_g = consumo_total_kg * 1000
+manzanas_consumidas = consumo_total_g / 4
+
+print(f"Ha consumido {consumo_total_g} gramos de fruta.")
+print(f"Equivalente a {int(manzanas_consumidas)} manzanas consumidas.")
