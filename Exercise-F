@@ -1,0 +1,7 @@
+# Crecimiento del cabello
+edad = int(input("Ingresa la edad de la persona en años: "))
+
+crecimiento_total_cm = edad * 12 * 0.5
+crecimiento_total_m = crecimiento_total_cm / 100
+
+print(f"Si no cortas tu cabello, mediría aproximadamente {crecimiento_total_m:.2f} metros.")
