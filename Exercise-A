@@ -1,4 +1,3 @@
-# Calcular el área de un triángulo rectángulo
 base = float(input("Ingresa la base del triángulo en milímetros: "))
 altura = float(input("Ingresa la altura del triángulo en milímetros: "))
 
