@@ -1,0 +1,12 @@
+inversion1 = float(input("Ingresa la inversión del primer socio: "))
+inversion2 = float(input("Ingresa la inversión del segundo socio: "))
+inversion3 = float(input("Ingresa la inversión del tercer socio: "))
+
+total_inversion = inversion1 + inversion2 + inversion3
+porcentaje1 = (inversion1 / total_inversion) * 100
+porcentaje2 = (inversion2 / total_inversion) * 100
+porcentaje3 = (inversion3 / total_inversion) * 100
+
+print(f"Primer socio: {porcentaje1:.2f}% de la inversión total.")
+print(f"Segundo socio: {porcentaje2:.2f}% de la inversión total.")
+print(f"Tercer socio: {porcentaje3:.2f}% de la inversión total.")
