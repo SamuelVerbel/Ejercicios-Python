@@ -1,0 +1,7 @@
+largo = float(input("Ingresa el largo de la pared en metros: "))
+alto = float(input("Ingresa el alto de la pared en metros: "))
+
+area_pared = largo * alto
+arena_necesaria = area_pared * 0.5
+
+print(f"Para revocar la pared se necesitan {arena_necesaria:.2f} metros cúbicos de arena.")
