@@ -1,0 +1,11 @@
+# Calcular el área de un rectángulo
+largo = float(input("Ingresa el largo del rectángulo en metros: "))
+ancho = float(input("Ingresa el ancho del rectángulo en metros: "))
+
+area_m2 = largo * ancho
+area_cm2 = area_m2 * 10_000
+area_mm2 = area_cm2 * 100
+
+print(f"Área en metros cuadrados: {area_m2} m²")
+print(f"Área en centímetros cuadrados: {area_cm2} cm²")
+print(f"Área en milímetros cuadrados: {area_mm2} mm²")
