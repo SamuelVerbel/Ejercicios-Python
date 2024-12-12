@@ -1,0 +1,9 @@
+# Calculadora minera
+kilos_oro = float(input("Ingresa la cantidad de kilos de oro: "))
+precio_por_onza = float(input("Ingresa el precio en pesos por onza de oro: "))
+
+gramos_oro = kilos_oro * 1000
+onzas_oro = gramos_oro / 28.35
+valor_total = onzas_oro * precio_por_onza
+
+print(f"El valor total a pagar por el oro es: ${valor_total:.2f}")
