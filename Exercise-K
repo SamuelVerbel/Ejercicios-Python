@@ -1,0 +1,14 @@
+# Servicios en una papelería
+fotocopias = int(input("Cantidad de fotocopias realizadas: "))
+ampliaciones = int(input("Cantidad de ampliaciones realizadas: "))
+reducciones = int(input("Cantidad de reducciones realizadas: "))
+
+valor_fotocopias = fotocopias * 100
+valor_ampliaciones = ampliaciones * 150
+valor_reducciones = reducciones * 200
+produccion_total = valor_fotocopias + valor_ampliaciones + valor_reducciones
+
+print(f"Total por fotocopias: ${valor_fotocopias}")
+print(f"Total por ampliaciones: ${valor_ampliaciones}")
+print(f"Total por reducciones: ${valor_reducciones}")
+print(f"Producción total del día: ${produccion_total}")
