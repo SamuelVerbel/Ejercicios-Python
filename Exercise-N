@@ -1,0 +1,8 @@
+# Suma de los dígitos de un número
+numero = int(input("Ingresa un número de dos cifras: "))
+
+decena = numero // 10
+unidad = numero % 10
+suma_digitos = decena + unidad
+
+print(f"La suma de los dígitos es: {suma_digitos}")
