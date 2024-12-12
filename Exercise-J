@@ -1,0 +1,9 @@
+# Cálculo del IVA
+valor_inicial = float(input("Ingresa el valor inicial del artículo: "))
+
+iva = valor_inicial * 0.19
+valor_total = valor_inicial + iva
+
+print(f"Valor inicial: ${valor_inicial:.2f}")
+print(f"IVA (19%): ${iva:.2f}")
+print(f"Valor total con IVA: ${valor_total:.2f}")
