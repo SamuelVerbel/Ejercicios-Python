@@ -1,0 +1,6 @@
+# Horas restantes para que termine el día
+hora_actual = int(input("Ingresa la hora actual (en formato 24 horas): "))
+
+horas_restantes = 24 - hora_actual
+
+print(f"Faltan {horas_restantes} horas para que termine el día.")
