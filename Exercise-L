@@ -1,0 +1,9 @@
+# Consumo de gasolina
+distancia_km = float(input("Ingresa la distancia en kilómetros: "))
+
+consumo_por_km_litros = 1 / 6.9
+litros_consumidos = distancia_km * consumo_por_km_litros
+galones_consumidos = litros_consumidos / 3.78541
+
+print(f"Litros de gasolina consumidos: {litros_consumidos:.2f}")
+print(f"Galones de gasolina consumidos: {galones_consumidos:.2f}")
