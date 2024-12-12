@@ -1,0 +1,6 @@
+# Última cifra de un número
+numero = int(input("Ingresa un número: "))
+
+ultima_cifra = numero % 10
+
+print(f"La última cifra del número es: {ultima_cifra}")
